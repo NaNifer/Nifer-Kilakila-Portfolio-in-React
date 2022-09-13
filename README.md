@@ -3,86 +3,59 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [User Story](#user-story)
-  - [Acceptance Criteria](#acceptance-criteria)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
+  - [Features](#features)
+  - [Screenshot](#screenshot)
+  - [Installation and Usage](#installation-and-usage)
+- [My process](#my-process)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
+  - [Links](#links)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
-### The challenge
+Hi there! This is my personal portfolio page built in React, which features some of my github projects as well as my resume and technical skills.  I had a lot of fun making this something I can continue building and using. I'm continually adding projects, modifying content, and updating the look and functionality. 
 
-Team Profile Generator is a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.
+I hope that it is a good representation of who I am as a person and engineer. If you would like to use this template for your own portfolio, please give me some props. Thanks!
 
-### User Story
+### Built with
 
-```md
-AS A manager
-I WANT to generate a webpage that displays my team's basic info
-SO THAT I have quick access to their emails and GitHub profiles
-```
+This project was built using these technologies.
 
-### Acceptance Criteria
+- ReactJS
+- NodeJS
+- ExpressJS
+- CSS3
 
-```md
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for my team members and their information
-THEN an HTML file is generated that displays a nicely formatted team roster based on user input
-WHEN I click on an email address in the HTML
-THEN my default email program opens and populates the TO field of the email with the address
-WHEN I click on the GitHub username
-THEN that GitHub profile opens in a new tab
-WHEN I start the application
-THEN I am prompted to enter the team manager’s name, employee ID, email address, and office number
-WHEN I enter the team manager’s name, employee ID, email address, and office number
-THEN I am presented with a menu with the option to add an engineer or an intern or to finish building my team
-WHEN I select the engineer option
-THEN I am prompted to enter the engineer’s name, ID, email, and GitHub username, and I am taken back to the menu
-WHEN I select the intern option
-THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu
-WHEN I decide to finish building my team
-THEN I exit the application, and the HTML is generated
-```
+### Features
+  
+📖 Multi-Page Layout
+  
+🎨 Styled with React-Bootstrap and Css with easy to customize colors
+  
+📱 Fully Responsive
 
 ### Screenshot
 
 ![](./screenshot.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
+### 🛠 Installation and Usage
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+1. Installation: ```npm install```
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+2. In the project directory, you can run: ```npm start```. Runs the app in the development mode.
 
-### Links
+3. Open http://localhost:3000 to view it in the browser. The page will reload if you make edits.
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+4. Open the project folder and Navigate to ```/src/components/```. You will find all the components used and you can edit your information accordingly.
 
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
+## My Process
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 To see how you can add code snippets, see below:
 
@@ -98,32 +71,23 @@ To see how you can add code snippets, see below:
 
 If you want more help with writing markdown, check out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+### Links
 
-### Continued development
+- Solution URL: [GitHub](https://github.com/NaNifer/Nifer-Kilakila-Portfolio-in-React)
+- Live Site URL: [Deployed Site](https://your-live-site-url.com)
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Build a Portfolio Website with React](https://www.freecodecamp.org/news/build-portfolio-website-react/) - Walks you through building a React portfoio from file structures to deployment.
+- [Build an Awesome Developer Portfolio](https://levelup.gitconnected.com/build-an-awesome-developer-portfolio-website-using-react-667abd7bab4d) - An easy-to-follow tutorial that helps solidify good coding practices.
 
 ## Author
 
 - GitHub - [NaNifer](https://github.com/NaNifer)
 - Portfolio - [Nifer Kilakila](https://nanifer.github.io/Nifer-Kilakila-Portfolio-h2/)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
 A huge shout out to [nullaus](https://github.com/nullaus) who was my quick dial on all the random questions about JS, and taught me that the arguments of functions could call on variables inside of other functions.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
