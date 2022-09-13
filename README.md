@@ -9,8 +9,8 @@
   - [Installation and Usage](#installation-and-usage)
 - [My process](#my-process)
   - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
   - [Links](#links)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
