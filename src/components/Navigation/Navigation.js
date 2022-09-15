@@ -18,7 +18,8 @@ import "../Header/Header.css";
 const Nav = () => {
     return (
         <>
-            <SidebarContent>
+            <SidebarContent
+                className="position-absolute top-50">
                 <Menu iconShape="square">
                     {/* <MenuItem active={true} icon={<FiHome />}>
                 Home
