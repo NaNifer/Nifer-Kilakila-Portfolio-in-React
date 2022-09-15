@@ -3,72 +3,35 @@ import React, { useState } from "react";
 
 //import react pro sidebar components
 import {
-  ProSidebar,
-  Menu,
-  MenuItem,
-  SidebarHeader,
-  SidebarFooter,
-  SidebarContent,
+    Menu,
+    MenuItem,
+    SidebarContent,
 } from "react-pro-sidebar";
 
 //import icons from react icons
-import { FaPortrait, FaCode, FaKeyboard, FaAlignLeft, FaPaperPlane  } from "react-icons/fa";
-import { FiHome, FiArrowLeftCircle, FiArrowRightCircle } from "react-icons/fi";
-
+import { FaPortrait, FaCode, FaKeyboard, FaAlignLeft, FaPaperPlane } from "react-icons/fa";
 
 //import sidebar css from react-pro-sidebar module and our custom css 
 import "react-pro-sidebar/dist/css/styles.css";
-import "./Navigation.css";
-
+import "../Header/Header.css";
 
 const Nav = () => {
-  
-    //create initial menuCollapse state using useState hook
-    const [menuCollapse, setMenuCollapse] = useState(false)
-
-    //create a custom function that will change menucollapse state from false to true and true to false
-  const menuIconClick = () => {
-    //condition checking to change state from true to false and vice versa
-    menuCollapse ? setMenuCollapse(false) : setMenuCollapse(true);
-  };
-
-  return (
-    <>
-      <div id="header">
-          {/* collapsed props to change menu size using menucollapse state */}
-        <ProSidebar collapsed={menuCollapse}>
-          <SidebarHeader>
-          <div className="logotext">
-              {/* small and big change using menucollapse state */}
-              <p>{menuCollapse ? "NK" : "NK"}</p>
-            </div>
-            <div className="closemenu" onClick={menuIconClick}>
-                {/* changing menu collapse icon on click */}
-              {menuCollapse ? (
-                <FiArrowRightCircle/>
-              ) : (
-                <FiArrowLeftCircle/>
-              )}
-            </div>
-          </SidebarHeader>
-          <SidebarContent>
-            <Menu iconShape="square">
-              <MenuItem active={true} icon={<FiHome />}>
+    return (
+        <>
+            <SidebarContent>
+                <Menu iconShape="square">
+                    {/* <MenuItem active={true} icon={<FiHome />}>
                 Home
-              </MenuItem>
-              <MenuItem icon={<FaPortrait />}>About</MenuItem>
-              <MenuItem icon={<FaCode />}>Skills</MenuItem>
-              <MenuItem icon={<FaKeyboard />}>Projects</MenuItem>
-              <MenuItem icon={<FaAlignLeft />}>Resume</MenuItem>
-              <MenuItem icon={<FaPaperPlane />}>Contact</MenuItem>
-            </Menu>
-          </SidebarContent>
-          {/* <SidebarFooter>
-           </SidebarFooter> */}
-        </ProSidebar>
-      </div>
-    </>
-  );
+              </MenuItem> */}
+                    <MenuItem icon={<FaPortrait />}>About</MenuItem>
+                    <MenuItem icon={<FaCode />}>Skills</MenuItem>
+                    <MenuItem icon={<FaKeyboard />}>Portfolio</MenuItem>
+                    <MenuItem icon={<FaAlignLeft />}>Resume</MenuItem>
+                    <MenuItem icon={<FaPaperPlane />}>Contact</MenuItem>
+                </Menu>
+            </SidebarContent>
+        </>
+    );
 };
 
 export default Nav;
