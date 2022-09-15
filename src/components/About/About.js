@@ -7,16 +7,15 @@ export default function About() {
   const [show, setShow] = useState(true);
   return (
     <div>
-      <div class="heroImageContainer">
+      <div className="heroImageContainer">
         <img src="assets/images/NiferK.jpg" alt="A photo of Nifer Kilakila" />
       </div>
-      <div class="heroDescription">
-        <p class="greeting">HI THERE! I'M</p>
+      <div className="heroDescription">
+        <p className="greeting">HI THERE! I'M</p>
         <h1><span>Nifer</span> Kilakila</h1>
-        <p class="smallBio">A <span>Front-End Web Developer</span> passionate about creating interactive applications and experiences on the web.</p>
-        <div class="socialsResume">
-          <a class="resumeLink" href="#!" alt="Nifer Kilakila's resume" target="_blank" rel="noopener noreferrer">Resumé</a>
-        
+        <p className="smallBio">A <span>Front-End Web Developer</span> passionate about tackling adaptive and technical challenges.</p>
+        <div className="socialsResume">
+          <a className="resumeLink" href="#!" alt="Nifer Kilakila's resume" target="_blank" rel="noopener noreferrer">Resumé</a>
         </div>
       </div>
     </div>
