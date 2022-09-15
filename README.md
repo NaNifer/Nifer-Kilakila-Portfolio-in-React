@@ -82,7 +82,13 @@ If you want more help with writing markdown, check out [The Markdown Guide](http
 - [Build a Portfolio Website with React](https://www.freecodecamp.org/news/build-portfolio-website-react/) - Walks you through building a React portfoio from file structures to deployment.
 - [Build an Awesome Developer Portfolio](https://levelup.gitconnected.com/build-an-awesome-developer-portfolio-website-using-react-667abd7bab4d) - An easy-to-follow tutorial that helps solidify good coding practices.
 - [react-bootstrap-sidebar-menu](https://www.npmjs.com/package/react-bootstrap-sidebar-menu) - SidebarMenu is an expandable and collapsible component that acts as a side container to place primary or secondary content alongside the main content. 
-- [Sidebar using react-pro-sidebar](https://codesandbox.io/s/dpdb1?file=/src/Components/Header/Header.js)
+- [Sidebar using react-pro-sidebar](https://github.com/azouaoui-med/react-pro-sidebar) - Customizable and responsive react sidebar library with dropdown menus and unlimited number of nested submenus
+
+- Reference websites that I drew inspiration from: 
+https://alexcalia.com/#skills
+https://jtom.me/contact/
+https://nickreyno.com/#skills
+
 
 ## Author
 

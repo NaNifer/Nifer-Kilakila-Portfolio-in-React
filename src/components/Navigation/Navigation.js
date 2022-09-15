@@ -13,16 +13,15 @@ import {
 
 //import icons from react icons
 import { FaPortrait, FaCode, FaKeyboard, FaAlignLeft, FaPaperPlane  } from "react-icons/fa";
-import { FiHome, FiLogOut, FiArrowLeftCircle, FiArrowRightCircle } from "react-icons/fi";
-import { RiPencilLine } from "react-icons/ri";
+import { FiHome, FiArrowLeftCircle, FiArrowRightCircle } from "react-icons/fi";
 
 
 //import sidebar css from react-pro-sidebar module and our custom css 
 import "react-pro-sidebar/dist/css/styles.css";
-import "./Aside.css";
+import "./Navigation.css";
 
 
-const Aside = () => {
+const Nav = () => {
   
     //create initial menuCollapse state using useState hook
     const [menuCollapse, setMenuCollapse] = useState(false)
@@ -41,7 +40,7 @@ const Aside = () => {
           <SidebarHeader>
           <div className="logotext">
               {/* small and big change using menucollapse state */}
-              <p>{menuCollapse ? "PIC" : "Nifer Kilakila, web developer"}</p>
+              <p>{menuCollapse ? "NK" : "NK"}</p>
             </div>
             <div className="closemenu" onClick={menuIconClick}>
                 {/* changing menu collapse icon on click */}
@@ -64,77 +63,12 @@ const Aside = () => {
               <MenuItem icon={<FaPaperPlane />}>Contact</MenuItem>
             </Menu>
           </SidebarContent>
-          <SidebarFooter>
-          <p>{menuCollapse ? 
-          "" : 
-          <Menu iconShape="square">
-              <MenuItem >Nifer Kilakila, 2022</MenuItem>
-            </Menu>
-            }</p>
-            
-          </SidebarFooter>
+          {/* <SidebarFooter>
+           </SidebarFooter> */}
         </ProSidebar>
       </div>
     </>
   );
 };
 
-export default Aside;
-
-
-
-
-
-
-
-
-// import { useState } from 'react';
-// import SidebarMenu from 'react-bootstrap-sidebar-menu';
-// import '../Aside/Aside';
-
-
-
-// export default function Aside() {
-//   return (
-// <SidebarMenu>
-//   <SidebarMenu.Header>
-//     <SidebarMenu.Brand>
-//       {/* Your brand icon */}
-//     </SidebarMenu.Brand>
-//     <SidebarMenu.Toggle />
-//   </SidebarMenu.Header>
-//   <SidebarMenu.Body>
-//     <SidebarMenu.Nav>
-//       <SidebarMenu.Nav.Link>
-//         <SidebarMenu.Nav.Icon>
-//           {/* Menu item icon */}
-//         </SidebarMenu.Nav.Icon>
-//         <SidebarMenu.Nav.Title>
-//           <p>About Me</p>
-//         </SidebarMenu.Nav.Title>
-//       </SidebarMenu.Nav.Link>
-//     </SidebarMenu.Nav>
-//     <SidebarMenu.Sub>
-//       <SidebarMenu.Sub.Toggle>
-//         <SidebarMenu.Nav.Icon />
-//         <SidebarMenu.Nav.Title>
-//           <p>SKILLS</p>
-//         </SidebarMenu.Nav.Title>
-//       </SidebarMenu.Sub.Toggle>
-//       <SidebarMenu.Sub.Collapse>
-//         <SidebarMenu.Nav>
-//           <SidebarMenu.Nav.Link>
-//             <SidebarMenu.Nav.Icon>
-//               {/* Submenu item icon */}
-//             </SidebarMenu.Nav.Icon>
-//             <SidebarMenu.Nav.Title>
-//             <p>Testimonials</p>
-//             </SidebarMenu.Nav.Title>
-//           </SidebarMenu.Nav.Link>
-//         </SidebarMenu.Nav>
-//       </SidebarMenu.Sub.Collapse>
-//     </SidebarMenu.Sub>
-//   </SidebarMenu.Body>
-// </SidebarMenu>
-//   )
-// }
+export default Nav;
