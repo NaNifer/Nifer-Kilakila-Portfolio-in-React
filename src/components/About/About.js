@@ -1,14 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 // import Alert from 'react-bootstrap/Alert';
 // import Button from 'react-bootstrap/Button';
 
 
 export default function About() {
-  const [show, setShow] = useState(true);
   return (
     <div>
-      <div className="heroImageContainer">
-        <img src="assets/images/NiferK.jpg" alt="A photo of Nifer Kilakila" />
+      <div className="heroImageContainer ms-200">
+        <img src="assets/images/NiferK.jpg" alt="Nifer Kilakila smiling" />
       </div>
       <div className="heroDescription">
         <p className="greeting">HI THERE! I'M</p>

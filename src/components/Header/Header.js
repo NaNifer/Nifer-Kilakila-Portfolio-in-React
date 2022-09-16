@@ -20,14 +20,15 @@ const Header = () => {
     <>
       <div
         id="header"
-        className="position-relative"
         // On mouse rollover the menu expands
         onMouseEnter={() => setMenuCollapse(false)}
         onMouseLeave={() => setMenuCollapse(true)}>
         {/* collapsed props to change menu size using menucollapse state */}
         <ProSidebar collapsed={menuCollapse}>
           <SidebarHeader
-          className="d-flex justify-content-center">
+          // Something below broke the rendering of other components
+          className="d-flex justify-content-center pt-5" 
+          >
             <div className="logotext">
               {/* small and big change using menucollapse state */}
               {menuCollapse ?
