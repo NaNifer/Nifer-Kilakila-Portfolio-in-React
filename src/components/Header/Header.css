@@ -1,6 +1,6 @@
 #header {
   position: absolute;
-  width: 220px;
+  width: 70px;
 }
 .logotext {
   position: absolute;
@@ -91,6 +91,10 @@
   html {
     overflow: hidden;
   }
+}
+
+#header:hover {
+  width: 220px;
 }
 
 /* .site-sidebar {

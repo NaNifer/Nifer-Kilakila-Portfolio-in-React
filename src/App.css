@@ -36,4 +36,17 @@
       transform: rotate(360deg);
     }
   }
-  
+.main-content-wrap {
+  margin-left: 70px;
+  z-index: 999;
+}
+
+#about, #intro {
+  height: 85vh;
+  z-index: -1;
+}
+
+#footer {
+  height: 15vh;
+  z-index: 1;
+}

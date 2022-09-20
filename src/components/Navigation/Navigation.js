@@ -1,5 +1,5 @@
 //import useState hook to create menu collapse state
-import React, { useState } from "react";
+import React from "react";
 
 //import react pro sidebar components
 import {
@@ -9,7 +9,7 @@ import {
 } from "react-pro-sidebar";
 
 //import icons from react icons
-import { FaPortrait, FaCode, FaKeyboard, FaAlignLeft, FaPaperPlane } from "react-icons/fa";
+import { FaHome, FaPortrait, FaCode, FaKeyboard, FaAlignLeft, FaPaperPlane } from "react-icons/fa";
 
 //import sidebar css from react-pro-sidebar module and our custom css 
 import "react-pro-sidebar/dist/css/styles.css";
@@ -24,6 +24,7 @@ const Nav = () => {
                     {/* <MenuItem active={true} icon={<FiHome />}>
                 Home
               </MenuItem> */}
+                    <MenuItem icon={<FaHome />}>Home</MenuItem>
                     <MenuItem icon={<FaPortrait />}>About</MenuItem>
                     <MenuItem icon={<FaCode />}>Skills</MenuItem>
                     <MenuItem icon={<FaKeyboard />}>Portfolio</MenuItem>

@@ -1,7 +1,7 @@
 // import "./Footer.css";
 const Footer = () => {
     return (
-        <footer className="bg-info text-center text-white">
+        <footer id="footer" className="bg-info text-center text-white sticky-bottom">
             <div className="container p-4 pb-0">
                 <section className="mb-1">
                     <a

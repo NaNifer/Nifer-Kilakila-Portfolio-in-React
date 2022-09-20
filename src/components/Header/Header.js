@@ -5,7 +5,7 @@ import Nav from "../Navigation/Navigation";
 //import react pro sidebar components
 import {
   ProSidebar,
-  SidebarHeader,
+  SidebarHeader
 } from "react-pro-sidebar";
 
 //import sidebar css from react-pro-sidebar module and our custom css 
@@ -14,7 +14,7 @@ import "./Header.css";
 
 const Header = () => {
   //create initial menuCollapse state using useState hook
-  const [menuCollapse, setMenuCollapse] = useState(false)
+  const [menuCollapse, setMenuCollapse] = useState(true)
   //create a custom function that will change menucollapse state from false to true and true to false
   return (
     <>
