@@ -1,6 +1,4 @@
-import { useState } from 'react';
-
-export default Contact = () => {
+export default function Contact() {
   return (
     <div>
       <div id="footer">

@@ -1,6 +1,7 @@
 #header {
   position: absolute;
-  width: 70px;
+  width: 138px;
+  height: 100vh;
 }
 .logotext {
   position: absolute;
@@ -93,9 +94,6 @@
   }
 }
 
-#header:hover {
-  width: 220px;
-}
 
 /* .site-sidebar {
     top: 0;
