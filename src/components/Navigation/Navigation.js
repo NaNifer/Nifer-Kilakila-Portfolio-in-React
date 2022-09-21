@@ -25,7 +25,7 @@ const Nav = () => {
                     {/* <MenuItem active={true} icon={<FiHome />}>
                 Home
               </MenuItem> */}
-                    <Link exact='true' activeclassname="active" to='/'>
+                    <Link exact='true' className="active" to='/'>
                         <MenuItem
                             icon={<FaHome />}>Home
                         </MenuItem>

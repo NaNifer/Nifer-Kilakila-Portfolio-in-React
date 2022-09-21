@@ -95,6 +95,12 @@
 }
 
 
+/* Not working */
+.navbar-nav > .active > a { 
+  color: aqua ; 
+}
+
+
 /* .site-sidebar {
     top: 0;
     bottom: 0;
