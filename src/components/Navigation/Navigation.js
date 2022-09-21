@@ -18,26 +18,36 @@ import "../Header/Header.css";
 
 const Nav = () => {
     return (
-        <>
+        <div className="nav-bar">
             <SidebarContent
                 className="position-absolute top-50">
                 <Menu iconShape="square">
                     {/* <MenuItem active={true} icon={<FiHome />}>
                 Home
               </MenuItem> */}
-                    <MenuItem icon={<FaHome />}>
-                        Home
+                    <Link exact='true' activeclassname="active" to='/'>
+                        <MenuItem
+                            icon={<FaHome />}>Home
+                        </MenuItem>
+                    </Link>
+                    <MenuItem
+                        icon={<FaPortrait />}>About
                     </MenuItem>
-                    <MenuItem icon={<FaPortrait />}>About</MenuItem>
-                    <MenuItem icon={<FaCode />}>Skills</MenuItem>
-                    <MenuItem icon={<FaKeyboard />}>Portfolio</MenuItem>
-                    <MenuItem icon={<FaAlignLeft />}>Resume</MenuItem>
-                    <MenuItem icon={<FaPaperPlane />}>
-                        {/* <Link to="/Contact">Contact</Link> */}
+                    <MenuItem
+                        icon={<FaCode />}>Skills
+                    </MenuItem>
+                    <MenuItem
+                        icon={<FaKeyboard />}>Portfolio
+                    </MenuItem>
+                    <MenuItem
+                        icon={<FaAlignLeft />}>Resume
+                    </MenuItem>
+                    <MenuItem
+                        icon={<FaPaperPlane />}>Contact
                     </MenuItem>
                 </Menu>
             </SidebarContent>
-        </>
+        </div>
     );
 };
 
