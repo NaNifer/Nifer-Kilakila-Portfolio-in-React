@@ -12,16 +12,11 @@ import About from '../pages/About/About';
 const Layout = () => {
     return (
         <>
-            {/* <Header /> */}
-            {/* <div className="main-content-wrap"> */}
-                {/* <Home /> */}
-                <About />
-                <Portfolio />
-                <Skills />
-                <Resume />
-                <Contact />
-                
-            {/* </div> */}
+            <About />
+            <Portfolio />
+            <Skills />
+            <Resume />
+            <Contact />
         </>
     )
 };

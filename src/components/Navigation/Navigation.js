@@ -30,11 +30,9 @@ const Nav = () => {
                             icon={<FaHome />}>Home
                         </MenuItem>
                     </NavLink>
-                    <NavLink exact='true' className="active" to='about'>
-                    <MenuItem
-                        icon={<FaPortrait />}>About
-                    </MenuItem>
-                    </NavLink>
+                        <MenuItem
+                            icon={<FaPortrait />}>About
+                        </MenuItem>
                     <MenuItem
                         icon={<FaCode />}>Skills
                     </MenuItem>
@@ -44,9 +42,13 @@ const Nav = () => {
                     <MenuItem
                         icon={<FaAlignLeft />}>Resume
                     </MenuItem>
+                    <NavLink exact='true' className="active" to='contact'>
+
                     <MenuItem
                         icon={<FaPaperPlane />}>Contact
                     </MenuItem>
+                    </NavLink>
+
                 </Menu>
             </SidebarContent>
         </div>
