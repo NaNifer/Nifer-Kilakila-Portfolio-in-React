@@ -1,4 +1,5 @@
 // import "./Footer.css";
+
 const Footer = () => {
     return (
         <footer id="footer" className="bg-info text-center text-white sticky-bottom">

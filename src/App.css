@@ -50,11 +50,17 @@
 }
 
 #footer {
-  height: 15vh;
+  height: 17vh;
   z-index: 1;
   width: 100vw;
+  position: fixed
 }
 
 #nifer-head {
   height: 35vh;
+}
+
+#projects-container {
+  display: flex;
+  justify-content: center;
 }

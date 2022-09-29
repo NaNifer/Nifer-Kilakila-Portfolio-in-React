@@ -1,0 +1,17 @@
+#contactForm-cont {
+  display: flexbox;
+  justify-content: center;
+  width: 400px;
+}
+
+.contact-container {
+  color: darkslateblue;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+a,.link-color {
+  color:slateblue;
+  margin-left: 5px;
+}
