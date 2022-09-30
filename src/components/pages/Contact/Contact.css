@@ -6,8 +6,8 @@
 
 .contact-container {
   color: darkslateblue;
-    margin-top: 5vh;
-    display: flex;
+    /* margin-top: 5vh; 
+    display: flex;*/
     justify-content: center;
 }
 

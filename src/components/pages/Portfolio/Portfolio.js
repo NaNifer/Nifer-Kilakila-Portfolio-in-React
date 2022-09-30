@@ -1,4 +1,4 @@
-import { Card, Button, Row, Col } from 'react-bootstrap';
+import { Card, Col, Row } from 'react-bootstrap';
 // import { blue3d, greencubed, linedcircle, reddot, tealwhite } from '../../../assets/projectPics/geometricPatterns';
 import blue3d from '../../../assets/projectPics/geometricPatterns/blue3d.png';
 
@@ -7,10 +7,10 @@ import blue3d from '../../../assets/projectPics/geometricPatterns/blue3d.png';
 const Portfolio = () => {
   return (
     <div id="projects-container">
-      <Card className="text-center" style={{ width: '25rem' }}>
+      <Card className="text-center" id="freakimono" style={{ width: '25rem' }}>
         <Card.Header>Featured</Card.Header>
         <Card.Body>
-          <Card.Title>Freakimono, digital pet game</Card.Title>
+          <Card.Title>Freakimono, digiStal pet game</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">Built with Javascript, jQuery, nodeJS, socketIO, Sequelize, ExpressHandlebars</Card.Subtitle>
           <Card.Text>
             This immersive app combines the joy of creating and caring for a loveable little creature and
@@ -20,9 +20,8 @@ const Portfolio = () => {
         </Card.Body>
         <Card.Img variant="bottom" src={blue3d} />
       </Card>
-
-      <Row xs={1} md={2} className="g-4">
-        <Col>
+      <div>
+      <Row xs={1} md={2} className="g-4 smallCards">
           <Card className="text-center" style={{ width: '18rem' }}>
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
@@ -49,10 +48,8 @@ const Portfolio = () => {
             </Card.Body>
             <Card.Img variant="bottom" src={blue3d} />
           </Card>
-        </Col>
       </Row>
-      <Row xs={1} md={2} className="g-4">
-        <Col>
+      <Row xs={1} md={2} className="g-4 smallCards">
           <Card className="text-center" style={{ width: '18rem' }}>
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
@@ -79,9 +76,8 @@ const Portfolio = () => {
             </Card.Body>
             <Card.Img variant="bottom" src={blue3d} />
           </Card>
-        </Col>
       </Row>
-
+      </div>
     </div>
   )
 }

@@ -25,29 +25,47 @@ const Nav = () => {
                     {/* <MenuItem active={true} icon={<FiHome />}>
                 Home
               </MenuItem> */}
-                    <NavLink exact='true' className="active" to='/'>
-                        <MenuItem
-                            icon={<FaHome />}>Home
-                        </MenuItem>
-                    </NavLink>
-                        <MenuItem
-                            icon={<FaPortrait />}>About
-                        </MenuItem>
                     <MenuItem
-                        icon={<FaCode />}>Skills
+                        icon={<FaHome />}>
+                        <NavLink exact='true' className="active" to='/'>
+                            Home
+                        </NavLink>
                     </MenuItem>
+                    
                     <MenuItem
-                        icon={<FaKeyboard />}>Portfolio
+                        icon={<FaPortrait />}>
+                        <NavLink exact='true' className="" to='/about'>
+                            About
+                        </NavLink>
                     </MenuItem>
-                    <MenuItem
-                        icon={<FaAlignLeft />}>Resume
-                    </MenuItem>
-                    <NavLink exact='true' className="active" to='contact'>
 
                     <MenuItem
-                        icon={<FaPaperPlane />}>Contact
+                        icon={<FaCode />}>
+                        <NavLink exact='true' className="" to='/skills'>
+                            Skills
+                        </NavLink>
                     </MenuItem>
-                    </NavLink>
+
+                    <MenuItem
+                        icon={<FaKeyboard />}>
+                        <NavLink exact='true' className="" to='/portfolio'>
+                            Portfolio
+                        </NavLink>
+                    </MenuItem>
+
+                    <MenuItem
+                        icon={<FaAlignLeft />}>
+                        <NavLink exact='true' className="" to='/resume'>
+                            Resume
+                        </NavLink>
+                    </MenuItem>
+
+                    <MenuItem
+                        icon={<FaPaperPlane />}>
+                        <NavLink exact='true' className="" to='/contact'>
+                            Contact
+                        </NavLink>
+                    </MenuItem>
 
                 </Menu>
             </SidebarContent>
