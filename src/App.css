@@ -41,12 +41,13 @@
   z-index: 999;
 }
 
-#about, #home {
+#about, #home, #skills, #portfolio, #contact, #resume, #skills {
   height: 85vh;
   z-index: -1;
   padding-left: 20vw;
   padding-right: 10vw;
   padding-top: 10vh;
+  margin-bottom: 20vh;
 }
 
 #footer {
@@ -79,4 +80,24 @@
 .nav-link.active {
   color: #fff !important;
   background: black !important;
+}
+
+
+.skillsContainer {
+  text-align: center;
+  font-size: 0.7rem;
+}
+.sectionContainer {
+  background-color: white;
+  border-radius: 50px;
+  padding: 48px;
+}
+
+.skillsGrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(80px, 1fr))[auto-fill];
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
 }

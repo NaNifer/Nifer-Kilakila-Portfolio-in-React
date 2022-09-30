@@ -1,7 +1,7 @@
 
 const About = () => {
   return (
-    <div>
+    <div id='skills'>
       <h2>Hello there, I'm Nifer Kilakila,</h2>
       <h3>aspiring web developer, a lifetime Maker, and fiber artist, one who thrives tackling adaptive and technical challenges. </h3>
       <h4>

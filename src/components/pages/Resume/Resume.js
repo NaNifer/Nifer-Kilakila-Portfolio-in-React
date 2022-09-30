@@ -1,7 +1,7 @@
 
 const Resume = () => {
   return (
-    <div>
+    <div id='resume'>
       <h2>Hello from Resume</h2>
     </div>
   )
