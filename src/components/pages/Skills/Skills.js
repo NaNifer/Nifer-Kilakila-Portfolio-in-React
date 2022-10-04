@@ -73,6 +73,8 @@ const Skills = () => {
       <p><strong>Databases: </strong>mongoDB, Sequelize </p>
       <p><strong>Frameworks: </strong>React JS, Redux, ES6, NodeJS</p>
       <p><strong>Languages: </strong>Typescript, MySQL</p>
+      <div className='pageSpacer'></div>
+
     </div>
   )
 }

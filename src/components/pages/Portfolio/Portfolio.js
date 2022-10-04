@@ -78,6 +78,7 @@ const Portfolio = () => {
           </Card>
       </Row>
       </div>
+      <div className='pageSpacer'></div>
     </div>
   )
 }

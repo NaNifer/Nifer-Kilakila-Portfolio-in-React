@@ -101,3 +101,16 @@
   grid-column-gap: 50px;
   grid-row-gap: 50px;
 }
+
+.pageSpacer {
+  width: 70vw;
+  height: 18vh;
+}
+
+.heroDescription2 {
+  width: 60vw;
+}
+
+.about {
+  background-color: white;
+}

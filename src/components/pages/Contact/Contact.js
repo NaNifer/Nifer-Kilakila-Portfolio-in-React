@@ -1,27 +1,27 @@
-import Form from 'react-bootstrap/Form';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { 
+  Form,
+  Button, 
+  Container,
+  Row,
+  Col } from 'react-bootstrap';
 import "../Contact/Contact.css"
 
 const Contact = () => {
   return (
     <Container id='contact' className='contact-container'>
-      <Row className="justify-content-md-center">
-        <Col md={{ span: 6, offset: 3 }}>
+      <Row className="justify-content-md-center link-container">
 
-          <h5 className='d-inline'>E-mail
+          <h5 className='contact-link'>E-mail
             <a className="link-color" href="mailto:niferkilakila@gmail.com"><i className="icon fa fa-envelope"></i> niferkilakila@gmail.com</a></h5>
 
-          <h5 className='d-inline'>LinkedIn
+          <h5 className='contact-link'>LinkedIn
             <a className="link-color" href="https://www.linkedin.com/in/nifer-kilakila-b0721565/"><i className="icon fa fa-linkedin"></i> N Kilakila</a></h5>
 
-          <h5 className='d-inline'>Github
+          <h5 className='contact-link'>Github
             <a className="link-color" href="https://github.com/NaNifer"><i className="icon fa fa-github"></i> NaNifer</a></h5>
 
-          <h5 className='d-inline'>StackOverflow
+          <h5 className='contact-link'>StackOverflow
             <a className="link-color" href="https://stackoverflow.com/users/18479722/nifer"><i className="icon fa fa-stack-overflow"></i> @nanifer</a></h5>
-        </Col>
       </Row>
       <div id="contactForm-cont">
       <Form>
@@ -36,8 +36,12 @@ const Contact = () => {
           <Form.Label>I'm looking forward to hearing from you!</Form.Label>
           <Form.Control as="textarea" rows={3} />
         </Form.Group>
+        <Button type="submit">
+        Submit
+      </Button>
       </Form>
       </div>
+      <div className='pageSpacer'></div>
     </Container>
   )
 };

@@ -7,13 +7,9 @@
   - [Features](#features)
   - [Screenshot](#screenshot)
   - [Installation and Usage](#installation-and-usage)
-- [My process](#my-process)
-  - [What I learned](#what-i-learned)
   - [Links](#links)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
 
 ## Overview
 
@@ -34,7 +30,7 @@ This project was built using these technologies.
   
 📖 Multi-Page Layout
   
-🎨 Styled with React-Bootstrap and Css with easy to customize colors
+🎨 Styled with React-Bootstrap and CSS with easy to customize colors
   
 📱 Fully Responsive
 
@@ -53,23 +49,6 @@ This project was built using these technologies.
 
 4. Open the project folder and Navigate to ```/src/components/```. You will find all the components used and you can edit your information accordingly.
 
-## My Process
-### What I learned
-
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-If you want more help with writing markdown, check out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 ### Links
 
@@ -94,8 +73,3 @@ https://nickreyno.com/#skills
 
 - GitHub - [NaNifer](https://github.com/NaNifer)
 - Portfolio - [Nifer Kilakila](https://nanifer.github.io/Nifer-Kilakila-Portfolio-h2/)
-
-
-## Acknowledgments
-
-A huge shout out to [nullaus](https://github.com/nullaus) who was my quick dial on all the random questions about JS, and taught me that the arguments of functions could call on variables inside of other functions.
