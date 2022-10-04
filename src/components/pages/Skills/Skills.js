@@ -10,66 +10,66 @@ import reactIcon from '../../../assets/skill-icons/React-icon.png';
 
 const Skills = () => {
   return (
-    
+
     <div id='skills'>
       <h2>SKILLS</h2>
+      <h5>HTML5, CSS3, JavaScript, jQuery, NodeJS, Bootstrap, ExpressJS, mongoDB, ReactJS</h5>
       <div class="skillsContainer sectionContainer">
-            <ul class="skillsGrid">
-              <li>
-                <div class="itemContainer">
-                  <img src={htmlIcon}/>
-                  <p>HTML</p>
-                </div>
-              </li>
-              <li>
-                <div class="itemContainer">
-                  <img src={cssIcon}/>
-                  <p>CSS</p>
-                </div>
-              </li>
-              <li>
-                <div class="itemContainer">
-                  <img src={jsIcon}/>
-                  <p>Javascript</p>
-                </div>
-              </li>
-              <li>
-                <div class="itemContainer">
-                  <img src=""/>
-                  <p>JQuery</p>
-                </div>
-              </li>
-              <li>
-                <div class="itemContainer">
-                  <img src={reactIcon}/>
-                  <p>React</p>
-                </div>
-              </li>
-              <li>
-                <div class="itemContainer">
-                  <img src={bootstrapIcon}/>
-                  <p>Bootstrap</p>
-                </div>
-              </li>
-              <li>
-                <div class="itemContainer">
-                  <img src={nodejsIcon}/>
-                  <p>nodeJS</p>
-                </div>
-              </li>
-              <li>
-                <div class="itemContainer">
-                  <img src={mongoIcon}/>
-                  <p>mongoDB</p>
-                </div>
-              </li>
-            </ul>
+        <ul class="skillsGrid">
+          <div>
+            <div class="itemContainer">
+              <img src={htmlIcon} />
+              <p>HTML</p>
+            </div>
           </div>
-      <p>HTML5, CSS3, JavaScript, jQuery, NodeJS, Bootstrap, ExpressJS, mongoDB, ReactJS</p>
+          <div>
+            <div class="itemContainer">
+              <img src={cssIcon} />
+              <p>CSS</p>
+            </div>
+          </div>
+          <div>
+            <div class="itemContainer">
+              <img src={jsIcon} />
+              <p>Javascript</p>
+            </div>
+          </div>
+          {/* <div>
+            <div class="itemContainer">
+              <img src="" />
+              <p>JQuery</p>
+            </div>
+          </div> */}
+          <div>
+            <div class="itemContainer">
+              <img src={reactIcon} />
+              <p>React</p>
+            </div>
+          </div>
+          <div>
+            <div class="itemContainer">
+              <img src={bootstrapIcon} />
+              <p>Bootstrap</p>
+            </div>
+          </div>
+          <div>
+            <div class="itemContainer">
+              <img src={nodejsIcon} />
+              <p>nodeJS</p>
+            </div>
+          </div>
+          <div>
+            <div class="itemContainer">
+              <img src={mongoIcon} />
+              <p>mongoDB</p>
+            </div>
+          </div>
+        </ul>
+      </div>
       <br></br>
       <br></br>
-      <p><strong>UI Web Technologies: </strong>HTML, HTML5, CSS3, SASS, JavaScript, jQuery, WordPress, 
-      JSON, Twitter, Bootstrap, React JS, Redux, Express JS, Node.js, GitHub</p>
+      <p><strong>UI Web Technologies: </strong>HTML, HTML5, CSS3, SASS, JavaScript, jQuery, WordPress,
+        JSON, Twitter, Bootstrap, React JS, Redux, Express JS, Node.js, GitHub</p>
       <p><strong>Databases: </strong>mongoDB, Sequelize </p>
       <p><strong>Frameworks: </strong>React JS, Redux, ES6, NodeJS</p>
       <p><strong>Languages: </strong>Typescript, MySQL</p>
