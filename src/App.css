@@ -41,6 +41,10 @@
   z-index: 999;
 }
 
+jumbotron {
+  height: max-content;
+}
+
 #about, #home, #skills, #portfolio, #contact, #resume, #skills {
   height: 85vh;
   z-index: -1;

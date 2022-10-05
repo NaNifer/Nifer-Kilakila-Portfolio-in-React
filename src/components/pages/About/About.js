@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+import resumePDF from '../../../assets/Kilakila-resume.pdf'
+
 
 const About = () => {
   return (
@@ -12,7 +13,10 @@ const About = () => {
           <p>I was drawn to web development because of the blend of both technical and creative challenges that it provides. As a highly creative person, I can also be process-driven, think scale, and rely on data to make decisions, and the challenges that coding provides seemed like a perfect fit.</p>
           <p>Through my time at Berkeley Extension Bootcamp, I have really enjoyed working in collaboration with other driven people. What a great feeling it is to find a perplexing bug, spend hours sifting through and modifying code, collaborate with a colleague about the problem, and discover the solution together!  I'm looking forward to many more of these collaborative puzzle solving as I continue my journey into coding.</p>
           <div className="resumeBox">
-            <Link to='/resume' className="flat-button">Resumé</Link>
+          <a href={resumePDF} target="_blank" 
+                    rel="noreferrer">
+                    Resumé
+                </a> 
           </div>
         </div>
       </div>

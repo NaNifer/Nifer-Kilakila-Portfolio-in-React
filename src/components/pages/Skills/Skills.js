@@ -18,49 +18,49 @@ const Skills = () => {
         <ul class="skillsGrid">
           <div>
             <div class="itemContainer">
-              <img src={htmlIcon} />
+              <img alt="html Icon" src={htmlIcon} />
               <p>HTML</p>
             </div>
           </div>
           <div>
             <div class="itemContainer">
-              <img src={cssIcon} />
+              <img alt="css Icon" src={cssIcon} />
               <p>CSS</p>
             </div>
           </div>
           <div>
             <div class="itemContainer">
-              <img src={jsIcon} />
+              <img alt="javascript Icon" src={jsIcon} />
               <p>Javascript</p>
             </div>
           </div>
           {/* <div>
             <div class="itemContainer">
-              <img src="" />
+              <img alt="" src="" />
               <p>JQuery</p>
             </div>
           </div> */}
           <div>
             <div class="itemContainer">
-              <img src={reactIcon} />
+              <img alt="react Icon" src={reactIcon} />
               <p>React</p>
             </div>
           </div>
           <div>
             <div class="itemContainer">
-              <img src={bootstrapIcon} />
+              <img alt="bootstrap Icon" src={bootstrapIcon} />
               <p>Bootstrap</p>
             </div>
           </div>
           <div>
             <div class="itemContainer">
-              <img src={nodejsIcon} />
+              <img alt="node js Icon" src={nodejsIcon} />
               <p>nodeJS</p>
             </div>
           </div>
           <div>
             <div class="itemContainer">
-              <img src={mongoIcon} />
+              <img alt="mongo DB Icon" src={mongoIcon} />
               <p>mongoDB</p>
             </div>
           </div>
