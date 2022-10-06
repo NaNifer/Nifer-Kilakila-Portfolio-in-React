@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7debed9b.css",
+    "main.js": "/static/js/main.85d94272.js",
+    "static/media/nifer.jpg": "/static/media/nifer.ee87f41404c51f79b8f0.jpg",
+    "static/media/reddot.png": "/static/media/reddot.54c8f944065fe9c2f5bc.png",
+    "static/media/greencubed.png": "/static/media/greencubed.241f281fadc56429d959.png",
+    "static/media/freakimonocover.png": "/static/media/freakimonocover.d69b5344c5d2009358be.png",
+    "static/media/PAWSitive-Pals-logo-orange.png": "/static/media/PAWSitive-Pals-logo-orange.20d1899384d54fff3b4f.png",
+    "static/media/Kilakila-resume.pdf": "/static/media/Kilakila-resume.36e0d4fef22bbdd6b7a6.pdf",
+    "static/media/nanarwhal800px.jpg": "/static/media/nanarwhal800px.008296eda808c2be8a75.jpg",
+    "static/media/React-icon.png": "/static/media/React-icon.7c6dc5b9a35e1b35c818.png",
+    "index.html": "/index.html",
+    "main.7debed9b.css.map": "/static/css/main.7debed9b.css.map",
+    "main.85d94272.js.map": "/static/js/main.85d94272.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7debed9b.css",
+    "static/js/main.85d94272.js"
+  ]
+}
