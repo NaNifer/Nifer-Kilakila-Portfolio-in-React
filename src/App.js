@@ -18,13 +18,13 @@ export default function App() {
     <>
       <Header />
       <Routes>
-        <Route path='/' element={<Home />} />
         <Route index element={<Home />} />
         <Route path='about' element={<About />} />
         <Route path='portfolio' element={<Portfolio />} />
         <Route path='resume' element={<Resume />} />
         <Route path='skills' element={<Skills />} />
         <Route path='contact' element={<Contact />} />
+        <Route path='/*' element={<Home />} />
       </Routes>
       <Footer />
     </>
