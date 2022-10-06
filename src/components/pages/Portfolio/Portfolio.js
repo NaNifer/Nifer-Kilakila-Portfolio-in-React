@@ -1,10 +1,12 @@
 import { Card, Row } from 'react-bootstrap';
 // import { blue3d, greencubed, linedcircle, reddot, tealwhite } from '../../../assets/projectPics/geometricPatterns';
-import blue3d from '../../../assets/projectPics/geometricPatterns/blue3d.png';
+// import blue3d from '../../../assets/projectPics/geometricPatterns/blue3d.png';
 import greencube from '../../../assets/projectPics/geometricPatterns/greencubed.png';
 import reddot from '../../../assets/projectPics/geometricPatterns/reddot.png';
 import freakimono from '../../../assets/projectPics/freakimonocover.png';
 import nanarwhal from '../../../assets/projectPics/nanarwhal800px.jpg';
+import PAWSitive from '../../../assets/projectPics/PAWSitive-Pals-logo-orange.png';
+
 
 const Portfolio = () => {
   return (
@@ -35,7 +37,7 @@ Gain the experience of what it may be like to own a pet without the full commitm
               <Card.Link href="#">Live Site</Card.Link>
               <Card.Link href="https://github.com/project-3-collab/Pawsitive-Pals">GitHub Repo</Card.Link>
             </Card.Body>
-            <Card.Img variant="bottom" src={blue3d} />
+            <Card.Img variant="bottom" src={PAWSitive} />
           </Card>
           <Card className="text-center" style={{ width: '18rem' }}>
             <Card.Body>
