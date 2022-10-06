@@ -5,7 +5,6 @@
 - [Overview](#overview)
   - [Built with](#built-with)
   - [Features](#features)
-  - [Screenshot](#screenshot)
   - [Installation and Usage](#installation-and-usage)
   - [Links](#links)
   - [Useful resources](#useful-resources)
@@ -33,11 +32,6 @@ This project was built using these technologies.
 🎨 Styled with React-Bootstrap and CSS with easy to customize colors
   
 📱 Fully Responsive
-
-### Screenshot
-
-![](./screenshot.jpg)
-
 
 ### 🛠 Installation and Usage
 
