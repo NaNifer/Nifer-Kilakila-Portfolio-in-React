@@ -21,7 +21,7 @@
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
+    color: #e9ecef;
   }
   
   .App-link {
@@ -39,11 +39,9 @@
 .main-content-wrap {
   margin-left: 71px;
   z-index: 999;
+  background: #e9ecef;
 }
 
-jumbotron {
-  height: max-content;
-}
 
 #about, #home, #skills, #portfolio, #contact, #resume, #skills {
   height: 85vh;
