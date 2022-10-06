@@ -51,7 +51,7 @@ Gain the experience of what it may be like to own a pet without the full commitm
       <Row xs={1} md={2} className="g-4 smallCards">
           <Card className="text-center" style={{ width: '18rem' }}>
             <Card.Body>
-              <Card.Title className="text-center font-weight-bold" className="text-center font-weight-bold">Team Cards in NodeJS</Card.Title>
+              <Card.Title className="text-center font-weight-bold">Team Cards in NodeJS</Card.Title>
               <Card.Subtitle className="mb-2 text-muted">Built with Semantic HTML5 Markup, CSS, JavaScript, Node.js, Jest, Inquirer</Card.Subtitle>
               <Card.Text>
               A Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.
