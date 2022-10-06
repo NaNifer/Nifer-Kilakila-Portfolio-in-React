@@ -1,5 +1,6 @@
 .App {
     text-align: center;
+    background-color: #e9ecef;
   }
   
   .App-logo {
@@ -21,7 +22,7 @@
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: #e9ecef;
+    background-color: #e9ecef;
   }
   
   .App-link {
@@ -43,14 +44,26 @@
 }
 
 
-#about, #home, #skills, #portfolio, #contact, #resume, #skills {
+ #home, #skills, #portfolio, #contact, #resume, #skills {
   height: 85vh;
   z-index: -1;
   padding-left: 20vw;
   padding-right: 10vw;
   padding-top: 10vh;
   margin-bottom: 20vh;
+  /* background-color: #e9ecef; */
 }
+
+#about {
+height: 120vh;
+z-index: -1;
+padding-left: 20vw;
+padding-right: 10vw;
+padding-top: 10vh;
+margin-bottom: 20vh;
+background-color: #e9ecef;
+}
+
 
 #footer {
   height: 17vh;
@@ -63,15 +76,19 @@
   height: 35vh;
 }
 
-#projects-container {
+#projects-container, #skills {
   /*display: flex;*/  justify-content: center;
   margin-bottom: 18vh;
-
-  
+  background-color: #e9ecef;
 }
 #freakimono {
   margin-left: auto;
   margin-right: auto;
+  
+}
+
+.card {
+  margin-bottom: 15px;
 }
 
 .smallCards{
@@ -111,8 +128,5 @@
 
 .heroDescription2 {
   width: 60vw;
-}
-
-.about {
-  background-color: white;
+  padding-right: 10vw;
 }
