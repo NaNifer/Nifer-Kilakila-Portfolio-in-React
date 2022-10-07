@@ -47,7 +47,7 @@ This project was built using these technologies.
 ### Links
 
 - Solution URL: [GitHub](https://github.com/NaNifer/Nifer-Kilakila-Portfolio-in-React)
-- Live Site URL: [Deployed Site](https://your-live-site-url.com)
+- Live Site URL: [Deployed Site](https://nanifer.github.io/Nifer-Kilakila-Portfolio-in-React/)
 
 
 ### Useful resources
