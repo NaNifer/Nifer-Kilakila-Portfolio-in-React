@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/Nifer-Kilakila-Portfolio-in-React/static/css/main.7debed9b.css",
-    "main.js": "/Nifer-Kilakila-Portfolio-in-React/static/js/main.92f51dae.js",
+    "main.js": "/Nifer-Kilakila-Portfolio-in-React/static/js/main.1e4cf1c6.js",
     "static/media/nifer.jpg": "/Nifer-Kilakila-Portfolio-in-React/static/media/nifer.ee87f41404c51f79b8f0.jpg",
     "static/media/reddot.png": "/Nifer-Kilakila-Portfolio-in-React/static/media/reddot.54c8f944065fe9c2f5bc.png",
     "static/media/greencubed.png": "/Nifer-Kilakila-Portfolio-in-React/static/media/greencubed.241f281fadc56429d959.png",
     "static/media/freakimonocover.png": "/Nifer-Kilakila-Portfolio-in-React/static/media/freakimonocover.d69b5344c5d2009358be.png",
     "static/media/PAWSitive-Pals-logo-orange.png": "/Nifer-Kilakila-Portfolio-in-React/static/media/PAWSitive-Pals-logo-orange.20d1899384d54fff3b4f.png",
-    "static/media/Kilakila-resume.pdf": "/Nifer-Kilakila-Portfolio-in-React/static/media/Kilakila-resume.36e0d4fef22bbdd6b7a6.pdf",
+    "static/media/Kilakila-resume.pdf": "/Nifer-Kilakila-Portfolio-in-React/static/media/Kilakila-resume.98ab7b063f9899891d9a.pdf",
     "static/media/nanarwhal800px.jpg": "/Nifer-Kilakila-Portfolio-in-React/static/media/nanarwhal800px.008296eda808c2be8a75.jpg",
     "static/media/React-icon.png": "/Nifer-Kilakila-Portfolio-in-React/static/media/React-icon.7c6dc5b9a35e1b35c818.png",
     "index.html": "/Nifer-Kilakila-Portfolio-in-React/index.html",
     "main.7debed9b.css.map": "/Nifer-Kilakila-Portfolio-in-React/static/css/main.7debed9b.css.map",
-    "main.92f51dae.js.map": "/Nifer-Kilakila-Portfolio-in-React/static/js/main.92f51dae.js.map"
+    "main.1e4cf1c6.js.map": "/Nifer-Kilakila-Portfolio-in-React/static/js/main.1e4cf1c6.js.map"
   },
   "entrypoints": [
     "static/css/main.7debed9b.css",
-    "static/js/main.92f51dae.js"
+    "static/js/main.1e4cf1c6.js"
   ]
 }
