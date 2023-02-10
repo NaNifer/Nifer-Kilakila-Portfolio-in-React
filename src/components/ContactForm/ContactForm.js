@@ -1,57 +1,51 @@
-// import React from 'react';
+import React, { useState } from "react";
 
+import { 
+  Form,
+  Button, 
+  Container,
+  Row,
+  Col } from 'react-bootstrap';
 
-// export default function About() {
-//   const [show, setShow] = useState(true);
+const ContactForm = () => {
+  const [status, setStatus] = useState("Submit");
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus("Sending...");
+    const { name, email, message } = e.target.elements;
+    let details = {
+      name: name.value,
+      email: email.value,
+      message: message.value,
+    };
+    let response = await fetch("http://localhost:5000/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json;charset=utf-8",
+      },
+      body: JSON.stringify(details),
+    });
+    setStatus("Submit");
+    let result = await response.json();
+    alert(result.status);
+  };
+  return (
+    <form onSubmit={handleSubmit}>
+      <div className="mb-3">
+        <label htmlFor="name">Name:</label>
+        <input type="text" id="name" placeholder="Ada Lovelace" required />
+      </div>
+      <div className="mb-3">
+        <label htmlFor="email">Email:</label>
+        <input type="email" id="email" placeholder="ada@rocks.com" required />
+      </div>
+      <div className="mb-3">
+        <label htmlFor="message">Message:</label>
+        <textarea id="message" placeholder="Looking forward to hearing from you!" required />
+      </div>
+      <button className='btn btn-info text-white' type="submit">{status}</button>
+    </form>
+  );
+};
 
-//   return (
-//     <>
-//       <Alert show={show} variant="success">
-//         <Alert.Heading>How's it going?!</Alert.Heading>
-//         <p>
-//           Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
-//           lacinia odio sem nec elit. Cras mattis consectetur purus sit amet
-//           fermentum.
-//         </p>
-//         <hr />
-//         <div className="d-flex justify-content-end">
-//           <Button onClick={() => setShow(false)} variant="outline-success">
-//             Close me y'all!
-//           </Button>
-//         </div>
-//       </Alert>
-
-//       {!show && <Button onClick={() => setShow(true)}>Show Alert</Button>}
-//     </>
-//   );
-// }
-
-// import Button from 'react-bootstrap/Button';
-// import Form from 'react-bootstrap/Form';
-
-// function BasicExample() {
-//   return (
-//     <Form>
-//       <Form.Group className="mb-3" controlId="formBasicEmail">
-//         <Form.Label>Email address</Form.Label>
-//         <Form.Control type="email" placeholder="Enter email" />
-//         <Form.Text className="text-muted">
-//           We'll never share your email with anyone else.
-//         </Form.Text>
-//       </Form.Group>
-
-//       <Form.Group className="mb-3" controlId="formBasicPassword">
-//         <Form.Label>Password</Form.Label>
-//         <Form.Control type="password" placeholder="Password" />
-//       </Form.Group>
-//       <Form.Group className="mb-3" controlId="formBasicCheckbox">
-//         <Form.Check type="checkbox" label="Check me out" />
-//       </Form.Group>
-//       <Button variant="primary" type="submit">
-//         Submit
-//       </Button>
-//     </Form>
-//   );
-// }
-
-// export default BasicExample;
+export default ContactForm;
