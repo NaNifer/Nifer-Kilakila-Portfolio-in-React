@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 
-import { 
+import {
   Form,
-  Button, 
-  Container,
-  Row,
-  Col } from 'react-bootstrap';
+  Button
+} from 'react-bootstrap';
+
 
 const ContactForm = () => {
   const [status, setStatus] = useState("Submit");
@@ -30,21 +29,21 @@ const ContactForm = () => {
     alert(result.status);
   };
   return (
-    <form onSubmit={handleSubmit}>
-      <div className="mb-3">
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" placeholder="Ada Lovelace" required />
-      </div>
-      <div className="mb-3">
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" placeholder="ada@rocks.com" required />
-      </div>
-      <div className="mb-3">
-        <label htmlFor="message">Message:</label>
-        <textarea id="message" placeholder="Looking forward to hearing from you!" required />
-      </div>
-      <button className='btn btn-info text-white' type="submit">{status}</button>
-    </form>
+    <Form onSubmit={handleSubmit}>
+      <Form.Group className="mb-3">
+        <Form.Label htmlFor="name">Name:</Form.Label>
+        <Form.Control type="text" id="name" placeholder="Ada Lovelace" required />
+      </Form.Group >
+      <Form.Group className="mb-3">
+        <Form.Label htmlFor="email">Email:</Form.Label>
+        <Form.Control type="email" id="email" placeholder="ada@rocks.com" required />
+      </Form.Group >
+      <Form.Group className="mb-3">
+        <Form.Label htmlFor="message">Message:</Form.Label>
+        <Form.Control id="message" placeholder="Looking forward to hearing from you!" required />
+      </Form.Group >
+      <Button className='btn btn-info text-white' type="submit">{status}</Button>
+    </Form>
   );
 };
 
