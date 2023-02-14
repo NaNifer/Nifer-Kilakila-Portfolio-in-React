@@ -69,9 +69,9 @@ const Skills = () => {
       <br></br>
       <br></br>
       <p><strong>UI Web Technologies: </strong>HTML, HTML5, CSS3, SASS, JavaScript, jQuery, WordPress,
-        JSON, Twitter, Bootstrap, React JS, Redux, Express JS, Node.js, GitHub</p>
+        JSON, Twitter, Bootstrap, ReactJS, Redux, ExpressJS, NodeJS, GitHub</p>
       <p><strong>Databases: </strong>mongoDB, Sequelize </p>
-      <p><strong>Frameworks: </strong>React JS, Redux, ES6, NodeJS</p>
+      <p><strong>Frameworks: </strong>ReactJS, Redux, ES6, NodeJS, VueJS</p>
       <p><strong>Languages: </strong>Typescript, MySQL</p>
       <div className='pageSpacer'></div>
 
