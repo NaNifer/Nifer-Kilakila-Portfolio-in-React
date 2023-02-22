@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Nifer-Kilakila-Portfolio-in-React/static/css/main.7debed9b.css",
-    "main.js": "/Nifer-Kilakila-Portfolio-in-React/static/js/main.24e214e3.js",
+    "main.js": "/Nifer-Kilakila-Portfolio-in-React/static/js/main.b29dd9ba.js",
     "static/media/nifer.jpg": "/Nifer-Kilakila-Portfolio-in-React/static/media/nifer.ee87f41404c51f79b8f0.jpg",
     "static/media/reddot.png": "/Nifer-Kilakila-Portfolio-in-React/static/media/reddot.54c8f944065fe9c2f5bc.png",
     "static/media/greencubed.png": "/Nifer-Kilakila-Portfolio-in-React/static/media/greencubed.241f281fadc56429d959.png",
@@ -12,10 +12,10 @@
     "static/media/React-icon.png": "/Nifer-Kilakila-Portfolio-in-React/static/media/React-icon.7c6dc5b9a35e1b35c818.png",
     "index.html": "/Nifer-Kilakila-Portfolio-in-React/index.html",
     "main.7debed9b.css.map": "/Nifer-Kilakila-Portfolio-in-React/static/css/main.7debed9b.css.map",
-    "main.24e214e3.js.map": "/Nifer-Kilakila-Portfolio-in-React/static/js/main.24e214e3.js.map"
+    "main.b29dd9ba.js.map": "/Nifer-Kilakila-Portfolio-in-React/static/js/main.b29dd9ba.js.map"
   },
   "entrypoints": [
     "static/css/main.7debed9b.css",
-    "static/js/main.24e214e3.js"
+    "static/js/main.b29dd9ba.js"
   ]
 }
