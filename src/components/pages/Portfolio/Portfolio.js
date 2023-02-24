@@ -34,7 +34,7 @@ const Portfolio = () => {
               A mobile friendly app enabling users to set up a playdate with an animal at a local shelter or adoption organization.
 Gain the experience of what it may be like to own a pet without the full commitment of adopting one.
               </Card.Text>
-              <Card.Link href="#">Live Site</Card.Link>
+              <Card.Link href="https://pawsitive-pals.herokuapp.com/">Live Site</Card.Link>
               <Card.Link href="https://github.com/project-3-collab/Pawsitive-Pals">GitHub Repo</Card.Link>
             </Card.Body>
             <Card.Img variant="bottom" src={PAWSitive} />
@@ -60,7 +60,6 @@ Gain the experience of what it may be like to own a pet without the full commitm
               <Card.Text>
               A Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.
               </Card.Text>
-              <Card.Link href="#">Live Site</Card.Link>
               <Card.Link href="https://github.com/NaNifer/Team-Cards-in-NodeJS">GitHub Repo</Card.Link>
             </Card.Body>
             <Card.Img variant="bottom" src={reddot} />
@@ -72,7 +71,6 @@ Gain the experience of what it may be like to own a pet without the full commitm
               <Card.Text>
               A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers' posts.
               </Card.Text>
-              <Card.Link href="#">Live Site</Card.Link>
               <Card.Link href="https://github.com/NaNifer/Tech-Blog-with-Sequelize-h14">GitHub Repo</Card.Link>
             </Card.Body>
             <Card.Img variant="bottom" src={greencube} />
